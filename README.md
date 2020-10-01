@@ -1,13 +1,12 @@
-# Overbetting 
+# Teachbase 
 
-<strong>Overbetting</strong> — cамый продвинутый сайт о ставках на спорт и букмекерских конторах. Прогнозы на спорт, конкурсы, рейтинг букмекеров, сравнение коэффициентов, предматчевая статистика, обзоры матчей и многое другое.
+<strong>Teachbase</strong> — cервис Teachbase.ru работает с большим количеством организаций по всей России и СНГ и поставляет качественные решения для организации обучения в компаниях.
 
 ### Ссылки на страницы
 
-Index page: https://ilyatish.github.io/overbetting  
-Competition page: https://ilyatish.github.io/overbetting/competition.html
+Index page: https://ilyatish.github.io/testwork
 
 ### Запуск проекта (команды npm) в ветке develop
 
-1. `npm i`
+1. `yarn add`
 2. `gulp`
