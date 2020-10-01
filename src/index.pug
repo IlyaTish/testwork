@@ -1,0 +1,18 @@
+extends template.pug
+
+block content
+  //- Header block ('.header')
+  include assets/blocks/common/header/block.pug
+
+
+  - const page = 'index'
+
+  main(class='content '+ page +'')
+    //- Main block ('.main')
+    include assets/blocks/main/block.pug
+
+    //- Book block ('.book')
+    include assets/blocks/book/block.pug
+
+    //- About block ('.about')
+    include assets/blocks/about/block.pug

@@ -1,0 +1,110 @@
+@media (max-width: 1201px)
+  .about
+    &__title
+      max-width: 380px
+
+    &__subtitle
+      margin: 0 0 0 16px
+
+    .swiper-button-prev
+      left: -50px
+
+    .swiper-button-next
+      right: -46px
+
+  .partners
+    max-width: 440px
+    grid-template-columns: 1fr 1fr 1fr
+
+
+@media (max-width: 993px)
+  .about
+    margin: 170px 0 0
+
+    &__title
+      max-width: 300px
+      margin: 0 0 20px
+
+    &__subtitle
+      margin: 0 0 0 10px
+
+    &__img
+      max-width: 700px
+
+  .partners
+    max-width: 300px
+    grid-template-columns: 1fr 1fr
+
+  .reviews
+    max-width: 300px
+
+  .reviews-swiper
+    padding: 30px 30px 32px
+
+
+@media (max-width: 769px)
+  .about
+    margin: 140px 0 0
+    padding: 0 0 60px
+
+    &__cont
+      flex-direction: column
+
+    &__img
+      display: none
+
+  .partners
+    max-width: 100%
+    grid-template-columns: 1fr 1fr 1fr 1fr
+
+  .reviews
+    max-width: 480px
+
+    .swiper-pagination
+      margin: 40px auto 0
+
+  .reviews-swiper
+    padding: 30px 30px 32px
+
+
+@media (max-width: 620px)
+  .partners
+    grid-template-columns: 1fr 1fr 1fr
+
+
+@media (max-width: 576px)
+  .about
+    margin: 100px 0 0
+
+    .swiper-button-prev
+      left: -10px
+
+    .swiper-button-next
+      right: -10px
+
+  .reviews
+    &__cont
+      &:before, &:after
+        width: 30px
+        height: 30px
+
+      &:before
+        top: -10px
+        left: -12px
+
+      &:after
+        bottom: -12px
+        right: -6px
+
+
+@media (max-width: 479px)
+  .about
+    &__col-2
+      padding: 40px 0 0
+
+    &__title
+      max-width: 260px
+      margin: 0 0 14px
+
+  .partners
+    grid-template-columns: 1fr 1fr
